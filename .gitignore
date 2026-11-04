@@ -21,6 +21,10 @@ checkpoints/
 .coverage
 htmlcov/
 
+# 本地笔记
+STUDY-LOG.md
+study-log.md
+
 # 编辑器 / 系统
 .idea/
 .vscode/
