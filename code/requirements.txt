@@ -1,0 +1,11 @@
+# 本仓库的所有代码示例仅依赖 Python 标准库（3.9+），核心部分无需安装任何包。
+#
+# 需要接真实模型时也不必安装 openai SDK：llm_client.py 用 urllib 调用
+# 任何兼容 /chat/completions 的服务，设置 LLM_API_KEY / LLM_BASE_URL / LLM_MODEL 即可。
+#
+# 下面是「可选」的扩展依赖，只在你想做 01 章的进阶实验时才需要：
+
+# transformers>=4.40   # 打印 KV Cache 形状、观察 KV 随序列长度增长
+# torch>=2.0           # 手算 scaled dot-product attention
+# jsonschema>=4.0      # 把 02 示例里的极简校验器换成正式 Schema 校验
+# pydantic>=2.0        # 结构化输出与工具参数的类型约束
